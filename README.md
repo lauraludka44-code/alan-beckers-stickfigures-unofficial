@@ -18,7 +18,7 @@ This app requires Java to be installed! You can download Java from the following
 ### Running the Jar File
 
 After downloading and extracting the zip file, double-click the `AlansStickfigures.jar` file to start the application.
-Optionally, you may double-click on the `SetupStartOnStartup.bat` to run a script that will set up the application to start up when you turn on your computer (WINDOWS 11/10 ONLY!).
+Optionally, you may double-click on the `SetupStartOnStartup.bat` to run a script that will set up the application to start up when you turn on your computer and it will appear in your start menu (WINDOWS 11/10 ONLY!).
 
 I plan to compile an installer to make the setup process much more simple; this will be for Windows users only!
 
