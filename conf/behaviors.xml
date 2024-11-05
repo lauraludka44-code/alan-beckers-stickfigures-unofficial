@@ -5,7 +5,7 @@
 	<BehaviorList>
 	
 		<!-- ALWAYS REQUIRED -->
-		<Behavior Name="ChaseMouse" Frequency="0" Hidden="true">
+		<Behavior Name="ChaseMouse" Frequency="50" Hidden="true">
 			<NextBehavior Add="false">
 				<BehaviorReference Name="SitAndFaceMouse" Frequency="1" />
 			</NextBehavior>
@@ -95,7 +95,7 @@
 			<Behavior Name="JumpFromBottomOfIE" Frequency="50" Condition="#{mascot.anchor.x &gt;= mascot.environment.activeIE.left &amp;&amp;
 				mascot.anchor.x &lt; mascot.environment.activeIE.right}" />
 				
-			<Behavior Name="PullUpShimeji" Frequency="50" Condition="#{mascot.totalCount &lt; 50}" />
+			<Behavior Name="PullUpShimeji" Frequency="0" Condition="#{mascot.totalCount &lt; 50}" />
 		</Condition>
 		
 		<!-- On Work Area Facing the Wall -->
