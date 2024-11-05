@@ -11,7 +11,7 @@ This is my own modification of the original compilation by [**kirillocha/@tschol
 
 ### Download Link
 
-[**Download Alan's Stickfigures Here!**](https://github.com/Skittlq/alans-beckers-stickfigures-unofficial/releases/latest)
+Download and unzip/extract [**alan-beckers-stickfigures-unofficial.zip**](https://github.com/Skittlq/alans-beckers-stickfigures-unofficial/releases/latest).
 
 ### Java Installation
 
