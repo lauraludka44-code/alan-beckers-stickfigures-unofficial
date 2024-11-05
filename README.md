@@ -24,6 +24,11 @@ Optionally, you may double-click on the `SetupStartOnStartup.bat` to run a scrip
 
 I plan to compile an installer to make the setup process much more simple; this will be for Windows users only!
 
+### Additional Sources
+- Shimeji-ee Behaviour, Actions & Sprites by @StickLaserPhase: [Google Drive Link](https://drive.google.com/file/d/1PdWAU91kAKg2lqcAiTdNGhNflqoHKU6N/view)
+- Forked From: [GitHub Repository](https://github.com/kirillocha/alanbecker_shimejiee_exe)
+- Based On: [Kilkakon](https://kilkakon.com/shimeji/)
+
 </details>
 
 <details>
@@ -50,6 +55,11 @@ zip 파일을 다운로드하고 압축을 푼 후, `AlansStickfigures.jar` 파�
 
 Windows 사용자를 위한 설치 프로그램을 곧 제공하여 설정 과정을 더욱 간단하게 할 예정입니다!
 
+### 추가 소스
+- Shimeji-ee Behaviour, Actions & Sprites by @StickLaserPhase: [구글 드라이브 링크](https://drive.google.com/file/d/1PdWAU91kAKg2lqcAiTdNGhNflqoHKU6N/view)
+- Forked From: [GitHub 저장소](https://github.com/kirillocha/alanbecker_shimejiee_exe)
+- Based On: [Kilkakon](https://kilkakon.com/shimeji/)
+
 </details>
 
 <details>
@@ -75,5 +85,10 @@ zip ファイルをダウンロードして解凍した後、`AlansStickfigures.
 オプションとして、`SetupStartOnStartup.bat` ファイルをダブルクリックすることで、コンピュータを起動するときにアプリケーションが自動的に起動するように設定するスクリプトを実行することができます（WINDOWS 11/10 のみ対応）。
 
 Windows ユーザー向けのインストーラを提供して、セットアッププロセスをさらに簡単にする予定です！
+
+### 追加ソース
+- Shimeji-ee Behaviour, Actions & Sprites by @StickLaserPhase: [Google ドライブリンク](https://drive.google.com/file/d/1PdWAU91kAKg2lqcAiTdNGhNflqoHKU6N/view)
+- Forked From: [GitHub リポジトリ](https://github.com/kirillocha/alanbecker_shimejiee_exe)
+- Based On: [Kilkakon](https://kilkakon.com/shimeji/)
 
 </details>
