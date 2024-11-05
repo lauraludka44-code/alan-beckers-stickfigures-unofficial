@@ -37,7 +37,7 @@ I plan to compile an installer to make the setup process much more simple; this 
 
 ### 다운로드 링크
 
-[**Alan's Stickfigures 다운로드**](https://github.com/Skittlq/alans-beckers-stickfigures-unofficial/releases/latest)
+다운로드하고 압축을 해제하세요: [**alan-beckers-stickfigures-unofficial.zip**](https://github.com/Skittlq/alans-beckers-stickfigures-unofficial/releases/latest)
 
 ### Java 설치
 
@@ -63,7 +63,7 @@ Windows 사용자를 위한 설치 프로그램을 곧 제공하여 설정 과�
 
 ### ダウンロードリンク
 
-[**Alan's Stickfigures ダウンロード**](https://github.com/Skittlq/alans-beckers-stickfigures-unofficial/releases/latest)
+ダウンロードして解凍してください: [**alan-beckers-stickfigures-unofficial.zip**](https://github.com/Skittlq/alans-beckers-stickfigures-unofficial/releases/latest)
 
 ### Java のインストール
 
