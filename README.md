@@ -3,6 +3,8 @@
 <details>
 <summary>English</summary>
 
+**Disclaimer: This is an unofficial version and is not endorsed or affiliated with Alan Becker.**
+
 ### Info
 
 This is my own modification of the original compilation by [**kirillocha/@tschollow**](https://x.com/tschollow), with updated sprites by [**Stickwave/@StickLaserPhase**](https://x.com/StickLaserPhase), nicer theming, UI, and some small changes in the stickfigure behaviors.
@@ -27,6 +29,8 @@ I plan to compile an installer to make the setup process much more simple; this 
 <details>
 <summary>한국어</summary>
 
+**면책 사항: 이 버전은 비공식이며 Alan Becker와는 아무런 연관이 없으며 승인을 받은 것이 아닙니다.**
+
 ### 정보
 
 이 버전은 [**kirillocha/@tschollow**](https://x.com/tschollow) 원작을 기반으로 제가 수정한 버전이며, [**Stickwave/@StickLaserPhase**](https://x.com/StickLaserPhase) 님의 업데이트된 스프라이트, 더 나은 테마와 UI, 그리고 약간의 스틱피규어 동작 변화가 포함되어 있습니다.
@@ -50,6 +54,8 @@ Windows 사용자를 위한 설치 프로그램을 곧 제공하여 설정 과�
 
 <details>
 <summary>日本語</summary>
+
+**免責事項: このバージョンは非公式であり、Alan Becker とは一切関係がなく、承認を得たものではありません。**
 
 ### 情報
 
