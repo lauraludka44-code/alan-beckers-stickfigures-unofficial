@@ -1,36 +1,4 @@
-## Original Sources and Acknowledgments
-
-<details>
-<summary>English</summary>
-The resource included here was created by Stickwave on X. Here are the original tweet and Google Drive link.
-  
-Tweet: https://x.com/StickLaserPhase/status/1853598300634517619
-
-Google Drive: https://drive.google.com/file/d/1PdWAU91kAKg2lqcAiTdNGhNflqoHKU6N/view
-</details>
-
-<details>
-<summary>한국어</summary>
-반영돼 있는 리소스는 X의 Stickwave 님께서 만들어 주셨습니다. 여기 원본 트윗과 구글 드라이브입니다.
-  
-트윗 : https://x.com/StickLaserPhase/status/1853598300634517619
-
-구글 드라이브 : https://drive.google.com/file/d/1PdWAU91kAKg2lqcAiTdNGhNflqoHKU6N/view
-</details>
-
-<details>
-<summary>日本語</summary>
-ここに含まれているリソースは、XのStickwaveさんが作成してくださいました。こちらが元のツイートとGoogleドライブのリンクです。
-  
-ツイート: https://x.com/StickLaserPhase/status/1853598300634517619
-
-Googleドライブ: https://drive.google.com/file/d/1PdWAU91kAKg2lqcAiTdNGhNflqoHKU6N/view
-</details>
-
 ## Installation Guide
-
-<details>
-<summary>English</summary>
 
 ### Download Link
 
@@ -43,8 +11,6 @@ Shimeji requires Java to be installed. You can download Java from the following 
 ### Running the Jar File
 
 After downloading and extracting the zip file, double-click the `Shimeji-ee.jar` file to start the application.
-
-</details>
 
 <details>
 <summary>한국어</summary>
@@ -79,3 +45,33 @@ ShimejiはJavaのインストールが必要です。以下のリンクからJav
 zipファイルをダウンロードして解凍した後、`Shimeji-ee.jar`ファイルをダブルクリックしてアプリケーションを開始します。
 
 </details>
+
+## Original Sources and Acknowledgments
+
+<details>
+<summary>English</summary>
+The resource included here was created by Stickwave on X. Here are the original tweet and Google Drive link.
+  
+Tweet: https://x.com/StickLaserPhase/status/1853598300634517619
+
+Google Drive: https://drive.google.com/file/d/1PdWAU91kAKg2lqcAiTdNGhNflqoHKU6N/view
+</details>
+
+<details>
+<summary>한국어</summary>
+반영돼 있는 리소스는 X의 Stickwave 님께서 만들어 주셨습니다. 여기 원본 트윗과 구글 드라이브입니다.
+  
+트윗 : https://x.com/StickLaserPhase/status/1853598300634517619
+
+구글 드라이브 : https://drive.google.com/file/d/1PdWAU91kAKg2lqcAiTdNGhNflqoHKU6N/view
+</details>
+
+<details>
+<summary>日本語</summary>
+ここに含まれているリソースは、XのStickwaveさんが作成してくださいました。こちらが元のツイートとGoogleドライブのリンクです。
+  
+ツイート: https://x.com/StickLaserPhase/status/1853598300634517619
+
+Googleドライブ: https://drive.google.com/file/d/1PdWAU91kAKg2lqcAiTdNGhNflqoHKU6N/view
+</details>
+
