@@ -1,3 +1,16 @@
+## Future Plans (Ordered in Priority)
+
+- Add Sound Effects (Toggleable)
+- Fix Hugging Animation with Hollow Heads
+- Re-animate all sprites. In the process, add extra frames for improved animation fluidity and life, and transitions between actions, fix The Second Coming's height.
+- Add victim, The Dark Lord, King Orange.
+- Add new custom interactions such as small hand to hand fights, or weaponed fights.
+- Possibly add objects like the couch for them to sit on?
+- Maybe Add Mercenaries
+- Unlikely, but possibly other side characters like Corn-dog Man.
+
+## Installation Guides
+
 <details>
 <summary>English</summary>
 
