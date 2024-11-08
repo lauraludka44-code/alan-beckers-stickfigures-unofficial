@@ -1,7 +1,7 @@
 <img alt="Alan Becker's Stickfigures Unofficial Logo" src="https://github.com/Skittlq/alan-beckers-stickfigures-unofficial/blob/main/repository-images/absu-logo.png?raw=true">
 
 <p align="center">
-    <img alt="Alan Becker's Stickfigures Unofficial Logo" src="https://github.com/Skittlq/alan-beckers-stickfigures-unofficial/blob/main/repository-images/key-art.png?raw=true" style="border-radius:20px; margin-top:5px;">
+    <img alt="Alan Becker's Stickfigures Unofficial Logo" src="https://github.com/Skittlq/alan-beckers-stickfigures-unofficial/blob/main/repository-images/key-art.png?raw=true" style="border-radius:20px;">
 </p>
 
 ## Introduction
