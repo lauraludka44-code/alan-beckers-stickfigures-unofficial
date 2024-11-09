@@ -10,7 +10,7 @@
 
 ### **Note: This application is only supported for Windows. macOS and Linux are not supported.**
 
-This is a customised version of Kilkakon's Shimeji-ees dedicated towards providing an easy way to download, install and receive updates for Alan Becker's suite of stickfigures to roam around and give you company on your desktop. The animations, behaviours and actions are all created and provided by [**Stickwave/@StickLaserPhase**](https://x.com/StickLaserPhase) (Thank you so much!) with my own little tweaks.
+This is a customised stand-alone app of Kilkakon's Shimeji-ees dedicated towards providing an easy way to download, install and receive updates for Alan Becker's suite of stickfigures to roam around and give you company on your desktop. The animations, behaviours and actions are all created and provided by [**Stickwave/@StickLaserPhase**](https://x.com/StickLaserPhase) (Thank you so much!) with my own little tweaks.
 
 ## Installation Guide
 
@@ -22,11 +22,12 @@ This app requires Java to be installed! You can download Java from the following
 
 Download the installer from the latest release: [**alan-beckers-stickfigures-installer**](https://github.com/Skittlq/alans-beckers-stickfigures-unofficial/releases/latest).
 
-### Installation and Running the Application
+### Installation and Running the Application / Updating the Application.
 
-1. Download the installer.
-2. Run the installer and follow the on-screen instructions.
-3. The application will automatically add itself as a shortcut to the Start Menu, Desktop, and will start up automatically when you turn on your computer.
+1. If updating, exit out of the app by either dismissing all stickfigures, or exiting out from the system tray icon.
+2. Download the installer.
+3. Run the installer and follow the on-screen instructions.
+4. The application will automatically add itself as a shortcut to the Start Menu, Desktop, and will start up automatically when you turn on your computer.
 
 ## Future Plans (Ordered in Priority)
 
