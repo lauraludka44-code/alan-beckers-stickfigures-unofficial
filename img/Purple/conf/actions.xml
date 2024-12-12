@@ -61,12 +61,12 @@
 
 		<Action Name="Sit" Type="Stay" BorderType="Floor">
 			<Animation>
-				<Pose Image="/sit01.png" ImageAnchor="64,126" Velocity="0,0" Duration="250" />
+				<Pose Image="/sit01.png" ImageAnchor="64,90" Velocity="0,0" Duration="250" />
 			</Animation>
 		</Action>
 		<Action Name="SitAndLookUp" Type="Stay" BorderType="Floor">
 			<Animation>
-				<Pose Image="/sit_up01.png" ImageAnchor="64,126" Velocity="0,0" Duration="250" />
+				<Pose Image="/sit_up01.png" ImageAnchor="64,90" Velocity="0,0" Duration="250" />
 			</Animation>
 		</Action>
 
@@ -600,26 +600,26 @@
 			BornX="-32" BornY="96" BornBehavior="PullUp">
 			<Animation>
 				<Pose Image="/stand01.png" ImageAnchor="64,128" Velocity="0,0" Duration="16" />
-				<Pose Image="/pull_up01.png" ImageAnchor="96,128" Velocity="0,0" Duration="4" />
-				<Pose Image="/pull_up02.png" ImageAnchor="96,128" Velocity="0,0" Duration="6" />
-				<Pose Image="/pull_up03.png" ImageAnchor="96,128" Velocity="0,0" Duration="10" />
-				<Pose Image="/pull_up04.png" ImageAnchor="96,128" Velocity="0,0" Duration="8" />
-				<Pose Image="/pull_up05.png" ImageAnchor="96,128" Velocity="0,0" Duration="10" />
-				<Pose Image="/pull_up06.png" ImageAnchor="96,128" Velocity="0,0" Duration="15" />
+				<Pose Image="/pull_up01.png" ImageAnchor="96,128" Velocity="0,0" Duration="3" />
+				<Pose Image="/pull_up02.png" ImageAnchor="96,128" Velocity="0,0" Duration="3" />
+				<Pose Image="/pull_up03.png" ImageAnchor="96,128" Velocity="0,0" Duration="3" />
+				<Pose Image="/pull_up04.png" ImageAnchor="96,128" Velocity="0,0" Duration="10" />
+				<Pose Image="/pull_up05.png" ImageAnchor="96,128" Velocity="0,0" Duration="4" />
+				<Pose Image="/pull_up06.png" ImageAnchor="96,128" Velocity="0,0" Duration="2" />
+				<Pose Image="/pull_up07.png" ImageAnchor="96,128" Velocity="0,0" Duration="2" />
+				<Pose Image="/pull_up08.png" ImageAnchor="96,128" Velocity="0,0" Duration="2" />
+				<Pose Image="/pull_up09.png" ImageAnchor="96,128" Velocity="0,0" Duration="2" />
+				<Pose Image="/pull_up10.png" ImageAnchor="96,128" Velocity="0,0" Duration="2" />
+				<Pose Image="/pull_up11.png" ImageAnchor="96,128" Velocity="0,0" Duration="2" />
+				<Pose Image="/pull_up12.png" ImageAnchor="96,128" Velocity="0,0" Duration="2" />
+				<Pose Image="/pull_up13.png" ImageAnchor="96,128" Velocity="0,0" Duration="4" />
+				<Pose Image="/pull_up14.png" ImageAnchor="96,128" Velocity="0,0" Duration="3" />
+				<Pose Image="/pull_up15.png" ImageAnchor="96,128" Velocity="0,0" Duration="8" />
 			</Animation>
 		</Action>
-		<Action Name="PullUpShimeji2" Type="Animate">
-			<Animation>
-				<Pose Image="/pinch05.png" ImageAnchor="32,128" Velocity="20,-20" Duration="1" />
-				<Pose Image="/pinch05.png" ImageAnchor="32,128" Velocity="20,-10" Duration="1" />
-				<Pose Image="/pinch05.png" ImageAnchor="32,128" Velocity="20,-5" Duration="1" />
-			</Animation>
-		</Action>
+
 		<Action Name="PullUpShimeji" Type="Sequence">
 			<ActionReference Name="PullUpShimeji1" />
-			<ActionReference Name="PullUpShimeji2" />
-			<ActionReference Name="Falling" InitialVX="${mascot.lookRight ? -20 : 20}"/>
-			<ActionReference Name="StandFromFloor" />
 			<ActionReference Name="Stand" Duration="40" />
 		</Action>
 

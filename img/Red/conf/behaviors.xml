@@ -31,6 +31,10 @@
 		
 		<Behavior Name="Trip" Frequency="50" />
 
+		        <Behavior Name="Dance" Frequency="10">
+                   <ActionReference Name="Dancing" />
+                </Behavior>
+
 		<Behavior Name="HuggingSolid" Frequency="0" Hidden="true" />
 		<Behavior Name="HuggedSolid" Frequency="0" Hidden="true" />
 
