@@ -37,7 +37,7 @@ Download the installer from the latest release: [**alan-beckers-stickfigures-ins
 - Add Sound Effects (Toggleable).
 - Fix Hugging Animation with Hollow Heads.
 - Re-animate all sprites. In the process, add extra frames for improved animation fluidity and life, and transitions between actions, fix the hollow head's height and head shape.
-- Add victim, ~~The Dark Lord~~, King Orange.
+- Add ~~victim~~, ~~The Dark Lord~~, King Orange.
 - Add new custom interactions such as small hand to hand fights, or weaponed fights.
 - Possibly add objects like the couch for them to sit on?
 - Unlikely, but maybe add Mercenaries.
