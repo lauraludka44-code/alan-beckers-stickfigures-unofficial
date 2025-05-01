@@ -34,14 +34,16 @@ Download the installer from the latest release: [**alan-beckers-stickfigures-ins
 
 ## Future Plans (Ordered in Priority)
 
-- Add Sound Effects (Toggleable).
-- Fix Hugging Animation with Hollow Heads.
-- Re-animate all sprites. In the process, add extra frames for improved animation fluidity and life, and transitions between actions, fix the hollow head's height and head shape.
-- Add ~~victim~~, ~~The Dark Lord~~, King Orange.
-- Add new custom interactions such as small hand to hand fights, or weaponed fights.
-- Possibly add objects like the couch for them to sit on?
-- Unlikely, but maybe add Mercenaries.
-- Unlikely, but possibly other side characters like Corn-dog Man.
+- ~~Add Sound Effects (Toggleable).~~
+- ~~Fix Hugging Animation with Hollow Heads.~~
+- ~~Re-animate all sprites. In the process, add extra frames for improved animation fluidity and life, and transitions between actions, fix the hollow head's height and head shape.~~
+- ~~Add ~~victim~~, ~~The Dark Lord~~, King Orange.~~
+- ~~Add new custom interactions such as small hand to hand fights, or weaponed fights.~~
+- ~~Possibly add objects like the couch for them to sit on?~~
+- ~~Unlikely, but maybe add Mercenaries.~~
+- ~~Unlikely, but possibly other side characters like Corn-dog Man.~~
+
+- All future plans are halted as I do not have the time to work on this project, however I have started a new project of creating my own Shimeji-ee like app to make creating desktop pets beginner friendly, while also being very customisable and powerful. It will use Godot Engine as the back bone. [Follow the development](https://github.com/Skittlq/s-pets)
 
 ## Additional Sources
 
