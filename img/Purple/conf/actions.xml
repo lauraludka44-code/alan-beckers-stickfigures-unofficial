@@ -61,12 +61,20 @@
 
 		<Action Name="Sit" Type="Stay" BorderType="Floor">
 			<Animation>
+<<<<<<< HEAD
 				<Pose Image="/sit01.png" ImageAnchor="64,90" Velocity="0,0" Duration="250" />
+=======
+				<Pose Image="/sit01.png" ImageAnchor="64,126" Velocity="0,0" Duration="250" />
+>>>>>>> upstream/main
 			</Animation>
 		</Action>
 		<Action Name="SitAndLookUp" Type="Stay" BorderType="Floor">
 			<Animation>
+<<<<<<< HEAD
 				<Pose Image="/sit_up01.png" ImageAnchor="64,90" Velocity="0,0" Duration="250" />
+=======
+				<Pose Image="/sit_up01.png" ImageAnchor="64,126" Velocity="0,0" Duration="250" />
+>>>>>>> upstream/main
 			</Animation>
 		</Action>
 
@@ -161,16 +169,27 @@
 		<Action Name="Falling" Type="Embedded" Class="com.group_finity.mascot.action.Fall"
 			RegistanceX="0.05" RegistanceY="0.1" Gravity="1">
 			<Animation>
+<<<<<<< HEAD
 				<Pose Image="/fall01.png" ImageAnchor="64,128" Velocity="-1,0" Duration="3" />
 				<Pose Image="/fall02.png" ImageAnchor="64,128" Velocity="-1,0" Duration="3" />
 				<Pose Image="/fall03.png" ImageAnchor="64,128" Velocity="-1,0" Duration="3" />
 				<Pose Image="/fall04.png" ImageAnchor="64,128" Velocity="-1,0" Duration="3" />
+=======
+				<Pose Image="/fall01.png" ImageAnchor="64,128" Velocity="0,0" Duration="3" />
+				<Pose Image="/fall02.png" ImageAnchor="64,128" Velocity="0,0" Duration="3" />
+				<Pose Image="/fall03.png" ImageAnchor="64,128" Velocity="0,0" Duration="3" />
+				<Pose Image="/fall04.png" ImageAnchor="64,128" Velocity="0,0" Duration="3" />
+>>>>>>> upstream/main
 			</Animation>
 		</Action>
 
 		<Action Name="StandFromFloor" Type="Animate" BorderType="Floor">
 			<Animation>
+<<<<<<< HEAD
 				<Pose Image="/bounce01.png" ImageAnchor="64,128" Velocity="-1,0" Duration="3" />
+=======
+				<Pose Image="/bounce01.png" ImageAnchor="64,128" Velocity="0,0" Duration="3" />
+>>>>>>> upstream/main
 				<Pose Image="/bounce02.png" ImageAnchor="64,128" Velocity="0,0" Duration="3" />
 				<Pose Image="/bounce03.png" ImageAnchor="64,128" Velocity="0,0" Duration="3" />
 				<Pose Image="/bounce04.png" ImageAnchor="64,128" Velocity="0,0" Duration="3" />
@@ -600,6 +619,7 @@
 			BornX="-32" BornY="96" BornBehavior="PullUp">
 			<Animation>
 				<Pose Image="/stand01.png" ImageAnchor="64,128" Velocity="0,0" Duration="16" />
+<<<<<<< HEAD
 				<Pose Image="/pull_up01.png" ImageAnchor="96,128" Velocity="0,0" Duration="3" />
 				<Pose Image="/pull_up02.png" ImageAnchor="96,128" Velocity="0,0" Duration="3" />
 				<Pose Image="/pull_up03.png" ImageAnchor="96,128" Velocity="0,0" Duration="3" />
@@ -615,11 +635,32 @@
 				<Pose Image="/pull_up13.png" ImageAnchor="96,128" Velocity="0,0" Duration="4" />
 				<Pose Image="/pull_up14.png" ImageAnchor="96,128" Velocity="0,0" Duration="3" />
 				<Pose Image="/pull_up15.png" ImageAnchor="96,128" Velocity="0,0" Duration="8" />
+=======
+				<Pose Image="/pull_up01.png" ImageAnchor="96,128" Velocity="0,0" Duration="4" />
+				<Pose Image="/pull_up02.png" ImageAnchor="96,128" Velocity="0,0" Duration="6" />
+				<Pose Image="/pull_up03.png" ImageAnchor="96,128" Velocity="0,0" Duration="10" />
+				<Pose Image="/pull_up04.png" ImageAnchor="96,128" Velocity="0,0" Duration="8" />
+				<Pose Image="/pull_up05.png" ImageAnchor="96,128" Velocity="0,0" Duration="10" />
+				<Pose Image="/pull_up06.png" ImageAnchor="96,128" Velocity="0,0" Duration="15" />
+			</Animation>
+		</Action>
+		<Action Name="PullUpShimeji2" Type="Animate">
+			<Animation>
+				<Pose Image="/pinch05.png" ImageAnchor="32,128" Velocity="20,-20" Duration="1" />
+				<Pose Image="/pinch05.png" ImageAnchor="32,128" Velocity="20,-10" Duration="1" />
+				<Pose Image="/pinch05.png" ImageAnchor="32,128" Velocity="20,-5" Duration="1" />
+>>>>>>> upstream/main
 			</Animation>
 		</Action>
 
 		<Action Name="PullUpShimeji" Type="Sequence">
 			<ActionReference Name="PullUpShimeji1" />
+<<<<<<< HEAD
+=======
+			<ActionReference Name="PullUpShimeji2" />
+			<ActionReference Name="Falling" InitialVX="${mascot.lookRight ? -20 : 20}"/>
+			<ActionReference Name="StandFromFloor" />
+>>>>>>> upstream/main
 			<ActionReference Name="Stand" Duration="40" />
 		</Action>
 

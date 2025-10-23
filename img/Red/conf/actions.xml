@@ -169,7 +169,11 @@
 
 		<Action Name="StandFromFloor" Type="Animate" BorderType="Floor">
 			<Animation>
+<<<<<<< HEAD
 				<Pose Image="/bounce01.png" ImageAnchor="64,128" Velocity="-1,0" Duration="4" />
+=======
+				<Pose Image="/bounce01.png" ImageAnchor="64,128" Velocity="0,0" Duration="4" />
+>>>>>>> upstream/main
 				<Pose Image="/bounce02.png" ImageAnchor="64,128" Velocity="0,0" Duration="4" />
 				<Pose Image="/bounce03.png" ImageAnchor="64,128" Velocity="0,0" Duration="4" />
 				<Pose Image="/bounce04.png" ImageAnchor="64,128" Velocity="0,0" Duration="4" />
@@ -189,6 +193,7 @@
 			</Animation>
 		</Action>
 
+<<<<<<< HEAD
    <!-- Dancing -->
 		<Action Name="Dance" Type="Animate" BorderType="Floor">
 			<Animation>
@@ -290,6 +295,8 @@
 			</Animation>
 		</Action>
 
+=======
+>>>>>>> upstream/main
 		<!-- Dragging -->
 
 		<Action Name="Pinched" Type="Embedded" Class="com.group_finity.mascot.action.Dragged">
@@ -707,6 +714,7 @@
 				<Pose Image="/pull_up03.png" ImageAnchor="96,128" Velocity="0,0" Duration="10" />
 				<Pose Image="/pull_up04.png" ImageAnchor="96,128" Velocity="0,0" Duration="8" />
 				<Pose Image="/pull_up05.png" ImageAnchor="96,128" Velocity="0,0" Duration="10" />
+<<<<<<< HEAD
 				<Pose Image="/pull_up06.png" ImageAnchor="96,128" Velocity="0,0" Duration="6" />
 				<Pose Image="/pull_up07.png" ImageAnchor="96,128" Velocity="0,0" Duration="6" />
 				<Pose Image="/pull_up08.png" ImageAnchor="96,128" Velocity="0,0" Duration="6" />
@@ -724,11 +732,27 @@
 				<Pose Image="/pull_up08.png" ImageAnchor="96,128" Velocity="0,0" Duration="6" />
 				<Pose Image="/pull_up07.png" ImageAnchor="96,128" Velocity="0,0" Duration="6" />
 				<Pose Image="/pull_up06.png" ImageAnchor="96,128" Velocity="0,0" Duration="6" />
+=======
+				<Pose Image="/pull_up06.png" ImageAnchor="96,128" Velocity="0,0" Duration="15" />
+			</Animation>
+		</Action>
+		<Action Name="PullUpShimeji2" Type="Animate">
+			<Animation>
+				<Pose Image="/pinch05.png" ImageAnchor="32,128" Velocity="20,-20" Duration="1" />
+				<Pose Image="/pinch05.png" ImageAnchor="32,128" Velocity="20,-10" Duration="1" />
+				<Pose Image="/pinch05.png" ImageAnchor="32,128" Velocity="20,-5" Duration="1" />
+>>>>>>> upstream/main
 			</Animation>
 		</Action>
 
 		<Action Name="PullUpShimeji" Type="Sequence">
 			<ActionReference Name="PullUpShimeji1" />
+<<<<<<< HEAD
+=======
+			<ActionReference Name="PullUpShimeji2" />
+			<ActionReference Name="Falling" InitialVX="${mascot.lookRight ? -20 : 20}"/>
+			<ActionReference Name="StandFromFloor" />
+>>>>>>> upstream/main
 			<ActionReference Name="Stand" Duration="40" />
 		</Action>
 
@@ -741,11 +765,14 @@
 		<Action Name="Trip" Type="Sequence">
 			<ActionReference Name="Tripping" />
 			<ActionReference Name="StandFromFloor" />
+<<<<<<< HEAD
 		</Action>
 
 		<Action Name="Dancing" Type="Animate">
 			<ActionReference Name="Dance" />
 			<ActionReference Name="Stand" />
+=======
+>>>>>>> upstream/main
 		</Action>
 	</ActionList>
 

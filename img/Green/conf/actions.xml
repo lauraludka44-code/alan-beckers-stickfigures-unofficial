@@ -114,6 +114,7 @@
 
 		<Action Name="GrabCeiling" Type="Stay" BorderType="Ceiling">
 			<Animation>
+<<<<<<< HEAD
 				<Pose Image="/hang01.png" ImageAnchor="64,0" Velocity="0,0" Duration="6" />
 				<Pose Image="/hang02.png" ImageAnchor="64,0" Velocity="0,0" Duration="6" />
 				<Pose Image="/hang03.png" ImageAnchor="64,0" Velocity="0,0" Duration="6" />
@@ -123,6 +124,9 @@
 				<Pose Image="/hang05.png" ImageAnchor="64,0" Velocity="0,0" Duration="6" />
 				<Pose Image="/hang04.png" ImageAnchor="64,0" Velocity="0,0" Duration="6" />
 				<Pose Image="/hang01.png" ImageAnchor="64,0" Velocity="0,0" Duration="6" />
+=======
+				<Pose Image="/hang01.png" ImageAnchor="64,0" Velocity="0,0" Duration="250" />
+>>>>>>> upstream/main
 			</Animation>
 		</Action>
 		
@@ -183,11 +187,19 @@
 
 		<Action Name="StandFromFloor" Type="Animate" BorderType="Floor">
 			<Animation>
+<<<<<<< HEAD
 				<Pose Image="/bounce01.png" ImageAnchor="64,128" Velocity="-30,0" Duration="2" />
 				<Pose Image="/bounce02.png" ImageAnchor="64,128" Velocity="-24,0" Duration="2" />
 				<Pose Image="/bounce03.png" ImageAnchor="64,128" Velocity="-18,0" Duration="2" />
 				<Pose Image="/bounce04.png" ImageAnchor="64,128" Velocity="-12,0" Duration="2" />
 				<Pose Image="/bounce05.png" ImageAnchor="64,128" Velocity="-6,0" Duration="2" />
+=======
+				<Pose Image="/bounce01.png" ImageAnchor="64,128" Velocity="0,0" Duration="2" />
+				<Pose Image="/bounce02.png" ImageAnchor="64,128" Velocity="0,0" Duration="2" />
+				<Pose Image="/bounce03.png" ImageAnchor="64,128" Velocity="0,0" Duration="2" />
+				<Pose Image="/bounce04.png" ImageAnchor="64,128" Velocity="0,0" Duration="2" />
+				<Pose Image="/bounce05.png" ImageAnchor="64,128" Velocity="0,0" Duration="2" />
+>>>>>>> upstream/main
 				<Pose Image="/bounce06.png" ImageAnchor="64,128" Velocity="0,0" Duration="2" />
 			</Animation>
 		</Action>
@@ -205,6 +217,7 @@
 			</Animation>
 		</Action>
 
+<<<<<<< HEAD
 	    <!-- Dancing -->
 		<Action Name="Dance" Type="Animate" BorderType="Floor">
 			<Animation>
@@ -300,6 +313,8 @@
 			</Animation>
 		</Action>
 
+=======
+>>>>>>> upstream/main
 		<!-- Dragging -->
 
 		<Action Name="Pinched" Type="Embedded" Class="com.group_finity.mascot.action.Dragged">
@@ -353,7 +368,10 @@
 				<Pose Image="/run11.png" ImageAnchor="64,128" Velocity="-18,0" Duration="2" />
 			</Animation>
 		</Action>
+<<<<<<< HEAD
 		
+=======
+>>>>>>> upstream/main
 		<!-- - - Solid head -->
 		<Action Name="HuggingSolidAction" Type="Embedded" Class="com.group_finity.mascot.action.Interact" BorderType="Floor">
 			<Animation>
@@ -746,11 +764,15 @@
 			<ActionReference Name="Tripping" />
 			<ActionReference Name="StandFromFloor" />
 		</Action>
+<<<<<<< HEAD
 
 		<Action Name="Dancing" Type="Animate">
 			<ActionReference Name="Dance" />
 			<ActionReference Name="Stand" />
 		</Action>
     </ActionList>
+=======
+	</ActionList>
+>>>>>>> upstream/main
 
 </Mascot>

@@ -159,9 +159,10 @@
 		<!-- Falling -->
 
 		<Action Name="Falling" Type="Embedded" Class="com.group_finity.mascot.action.Fall"
-			RegistanceX="0.05" RegistanceY="0.1" Gravity="7">
+			RegistanceX="0.05" RegistanceY="0.1" Gravity="2">
 			<Animation>
-				<Pose Image="/fall01.png" ImageAnchor="64,128" Velocity="0,0" Duration="250" />
+				<Pose Image="/fall01.png" ImageAnchor="64,128" Velocity="0,0" Duration="52" />
+				<Pose Image="/fall02.png" ImageAnchor="64,128" Velocity="0,0" Duration="30" />
 			</Animation>
 		</Action>
 
@@ -196,21 +197,13 @@
 			<Animation Condition="#{FootX &lt; mascot.environment.cursor.x-30}">
 				<Pose Image="/pinch02.png" ImageAnchor="64,120" Velocity="0,0" Duration="5" />
 			</Animation>
-			<Animation Condition="#{FootX &gt; mascot.environment.cursor.x-10 &amp;&amp; FootX &lt; mascot.environment.cursor.x+10}">
+			<Animation Condition="#{FootX &lt; mascot.environment.cursor.x}">
 				<Pose Image="/pinch03.png" ImageAnchor="64,120" Velocity="0,0" Duration="5" />
-<<<<<<< HEAD:img/TDL/conf/actions.xml
-			</Animation>
-			<Animation Condition="#{FootX &gt; mascot.environment.cursor.x-10 &amp;&amp; FootX &lt; mascot.environment.cursor.x+10}">
-				<Pose Image="/pinch04.png" ImageAnchor="64,120" Velocity="0,0" Duration="5" />
-			</Animation>
-			<Animation Condition="#{FootX &lt; mascot.environment.cursor.x+10}">
-=======
 			</Animation>
 			<Animation Condition="#{FootX &gt; mascot.environment.cursor.x-10 &amp;&amp; FootX &lt; mascot.environment.cursor.x+10}">
 				<Pose Image="/pinch04.png" ImageAnchor="64,120" Velocity="0,0" Duration="5" />
 			</Animation>
 			<Animation Condition="#{FootX &lt; mascot.environment.cursor.x+30}">
->>>>>>> upstream/main:img/The Chosen One/conf/actions.xml
 				<Pose Image="/pinch05.png" ImageAnchor="64,120" Velocity="0,0" Duration="5"/>
 			</Animation>
 			<Animation Condition="#{FootX &lt; mascot.environment.cursor.x+50}">
